@@ -5,7 +5,19 @@ body {
     font-size: 18px;
     margin: 0;
 }
-
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav-logo {
+    margin: 18px 0px 18px 0px;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
 main {
     margin: 3rem auto;
     max-width: 90vw;
